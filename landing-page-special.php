@@ -23,7 +23,7 @@
 	<div>
 		<div class="intro">
 			<?php 
-			$image = get_field('intro_image');
+			$image = get_field('intro_cover');
 			if( !empty( $image ) ): ?>
 				<img src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" />
 			<?php endif; ?>
