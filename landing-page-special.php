@@ -28,9 +28,9 @@
 				<img src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" />
 			<?php endif; ?>
 		<!-- <img id="introCover" src="https://gupmagazine.com/wp-content/uploads/2020/07/66gupbanner.png" alt="" /> -->
-			<h2 id="introText">
+			<div id="introText">
 				<?php the_field('intro_text'); ?>
-			</h2>
+			</div>
 			<div class="landing-buttons">
 				<button id="buynowButton"><?php the_field('left_button'); ?></button>	
 				<button id="websiteButton"><?php the_field('right_button'); ?></button>	
