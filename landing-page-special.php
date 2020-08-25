@@ -32,8 +32,28 @@
 				<?php the_field('intro_text'); ?>
 			</div>
 			<div class="landing-buttons">
-				<button id="buynowButton"><?php the_field('left_button'); ?></button>	
-				<button id="websiteButton"><?php the_field('right_button'); ?></button>	
+				<button id="buynowButton">
+					<?php 
+					$link = get_field('left_button');
+					if( $link ): 
+						$link_url = $link['url'];
+						$link_title = $link['title'];
+						$link_target = $link['target'] ? $link['target'] : '_self';
+						?>
+						<a class="button" href="<?php echo esc_url( $link_url ); ?>" target="<?php echo esc_attr( $link_target ); ?>"><?php echo esc_html( $link_title ); ?></a>
+					<?php endif; ?>
+				</button>	
+				<button id="websiteButton">
+				<?php 
+					$link = get_field('right_button');
+					if( $link ): 
+						$link_url = $link['url'];
+						$link_title = $link['title'];
+						$link_target = $link['target'] ? $link['target'] : '_self';
+						?>
+						<a class="button" href="<?php echo esc_url( $link_url ); ?>" target="<?php echo esc_attr( $link_target ); ?>"><?php echo esc_html( $link_title ); ?></a>
+					<?php endif; ?>
+				</button>	
 			</div>
 		</div>
 	</div>
