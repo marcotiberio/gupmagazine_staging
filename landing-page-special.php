@@ -232,9 +232,6 @@
 					<div class="numbers-img-container">
 						<img src="https://gupmagazine.com/wp-content/uploads/2020/07/65-scaled.jpg" alt="">
 					</div>
-					<div class="numbers-img-container">
-						<img class="soldout" src="https://gupmagazine.com/wp-content/uploads/2020/07/66-scaled.jpg" alt="">
-					</div>
 				</div>
 				<div class="landing-buttons">
 					<button id="buynowButton">
