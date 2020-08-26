@@ -176,7 +176,7 @@
 						<img src="https://gupmagazine.com/wp-content/uploads/2020/07/47-scaled.jpg" alt="">
 					</div>
 					<div class="numbers-img-container">
-						<img class="soldout" src="https://gupmagazine.com/wp-content/uploads/2020/07/66-scaled.jpg" alt="">
+						<img class="soldout" src="https://gupmagazine.com/wp-content/uploads/2020/07/soldout2.jpg" alt="">
 					</div>
 					<div class="numbers-img-container">
 						<img src="https://gupmagazine.com/wp-content/uploads/2020/07/49-scaled.jpg" alt="">
